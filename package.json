@@ -1,0 +1,76 @@
+{
+  "name": "gatsby-typescript-sass-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "keywords": [
+    "gatsby"
+  ],
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "license": "MIT",
+  "author": "Adam Hill <ahill86@gmail.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,ts,tsx}\"",
+    "lint": "eslint --fix --config ./.eslintrc.js --ext .ts,.tsx,.js ./",
+    "serve": "gatsby serve",
+    "start": "npm run develop",
+    "test": "jest"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all",
+    "not ie <= 11"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "gatsby": "^2.20.6",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-catch-links": "^2.2.1",
+    "gatsby-plugin-manifest": "^2.3.2",
+    "gatsby-plugin-offline": "^3.1.1",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sass": "^2.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-typescript": "^2.3.1",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.2",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.31",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-helmet": "^5.0.15",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "prettier": "^2.0.2",
+    "ts-jest": "^24.3.0"
+  }
+}
